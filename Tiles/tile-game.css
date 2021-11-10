@@ -1,0 +1,81 @@
+/* 
+Filename: tile-game.css
+Purpose: CSS page for Assignment A7.
+Created: May 7, 2021
+Authors: Ashley Yuan & Aizah Rao
+*/
+
+h1 {
+    font-family: Verdana;
+	padding-top: 20px;
+	padding-left: 30px;
+}
+
+button {
+    font: 20px Verdana;
+    padding: 1ex;
+    border: 1px solid blue;
+    border-radius: 0.5ex;
+    background-color: #eef;
+}    
+
+#controls, #board {
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+}
+
+#directions {
+    position: relative;
+    height: 300px;
+    width: 400px;
+    font: 20px Verdana;
+    background-color: #eee;
+    margin: 1em;
+}
+
+#directions button {
+    box-sizing: border-box;
+    position: absolute;
+    width: 150px;
+    height: 40px;
+}
+
+/* (400-150)/2 = 125; */
+
+#up    { top: 0px; left: 125px; }
+
+#down  { bottom: 0px; left: 125px; }
+
+/* (300-40)/2 = 130 */
+
+#left  { top: 130px; left: 0px; }
+
+#right { top: 130px; right: 0px; }
+
+#board {
+	height: 600px;
+	width: 600px;
+}
+
+#board { position: relative; }
+
+/* give this property to all of the tile images */
+#board img {
+    position: absolute;
+}
+
+#a { left: 000px; top: 0px; }
+#b { left: 200px; top: 0px; }
+#c { left: 400px; top: 0px; }
+
+#d { left: 000px; top: 200px; }
+#e { left: 200px; top: 200px; }
+#f { left: 400px; top: 200px; }
+
+#g { left: 000px; top: 400px; }
+#h { left: 200px; top: 400px; }
+
+#scrambleButton {
+    margin: 1em;
+}

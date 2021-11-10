@@ -1,0 +1,51 @@
+body {
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  display: block;
+  margin: 0.5em 1em;
+  padding: 0.1em;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 2em;
+  margin: auto;
+  width: 80%;
+  background: gray;
+}
+
+.column {
+background: silver;
+border: 2px solid green;
+}
+
+div div {
+border: black solid 2px;
+background: white;
+margin: 0.2em;
+padding: 0.2em;
+}
+
+button {
+background-color: skyblue;
+color: white;
+margin: 0.1em;
+}
+
+ul {
+list-style: none;
+}
+
+.correct {
+border: 2px solid lawngreen;
+background-color: lightgreen;
+}
+
+.wrong {
+border: 2px solid red;
+background-color: lightcoral;
+}

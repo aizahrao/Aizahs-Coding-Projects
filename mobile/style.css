@@ -1,0 +1,70 @@
+body { 
+    padding: 2em;
+} 
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+}
+
+
+figure {
+    text-align: center;
+    border: 2px solid silver;
+
+    position: relative;
+}
+    
+figcaption {
+    width: 80%;
+    text-align: center;
+    border: 1px solid black;
+    background: white;
+    margin-top: 2em;
+
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 0
+}
+
+.header {
+    margin-left: 2em;
+}
+
+section li {
+    margin-left: 20px;
+}
+
+section p {
+    text-align: center;
+}
+
+.personal{
+    background: rgb(71, 163, 199);
+    border: rgb(226, 0, 0);
+    margin:1em ;   
+}
+
+.best-friend{
+    background: rgb(113, 197, 106);
+    margin:1em ;
+}
+
+.friends{
+    background: rgb(194, 189, 148);
+    margin:1em ;
+}
+
+.picture {
+    width: 80%;
+    margin:2em ;
+
+}
+
+@media all and (min-width: 768px) {
+    .main-section {
+        display: flex;
+        flex-direction: row;
+    }
+    }

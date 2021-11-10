@@ -1,0 +1,11 @@
+main{
+    margin: 8px;
+}
+
+ul.validation_icons{
+    list-style-type: none;
+}
+
+.validation_icons li{
+    display: inline;
+}
